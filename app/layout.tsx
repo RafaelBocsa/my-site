@@ -1,26 +1,26 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import  NavBar from "@/components/navbar";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Tenor_Sans } from "next/font/google";
+import NavBar from "@/components/navbar";
 
-const inter = Inter({ subsets: ['latin'] })
+const tenor = Tenor_Sans({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: 'Rafael Bocsa',
-  description: 'Full Stack Engineer',
-}
+  title: "Rafael Bocsa",
+  description: "Full Stack Engineer",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={tenor.className}>
         <NavBar></NavBar>
         {children}
-        </body>
+      </body>
     </html>
-  )
+  );
 }
