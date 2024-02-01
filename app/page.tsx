@@ -1,12 +1,22 @@
-import Image from "next/image";
+"use client";
+import { useEffect } from "react";
+import NavBar from "@/components/nav_bar/navbar";
+import Summit from "@/components/summit/summit";
+import AboutMe from "@/components/about_me/aboutme";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
+
   return (
-    <main className="text-white">
-      <div className=" grid justify-center py-20">
-        <h1 className="text-8xl ">SUMMIT</h1>
-        <h1 className="text-2xl ">An interactive web portfolio</h1>
-      </div>
+    <main>
+      <NavBar />
+      <Summit />
+      <AboutMe />
     </main>
   );
 }

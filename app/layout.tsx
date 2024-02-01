@@ -1,7 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Tenor_Sans } from "next/font/google";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/nav_bar/navbar";
+import Summit from "@/components/summit/summit";
+import AboutMe from "@/components/about_me/aboutme";
 
 const tenor = Tenor_Sans({ subsets: ["latin"], weight: ["400"] });
 
@@ -18,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={tenor.className}>
-        <NavBar></NavBar>
+        {/* More components under here */}
         {children}
       </body>
     </html>

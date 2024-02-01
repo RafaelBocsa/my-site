@@ -15,9 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-*{
-  /* font-family:"Tenor", serif; */
-}
+
 body {
   padding: 1rem;
   background-image: url('/DarkMountain.jpg');
@@ -25,4 +23,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
