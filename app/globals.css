@@ -17,8 +17,7 @@
 }
 
 body {
-  padding: 1rem;
-  background-image: url('/DarkMountain.jpg');
+  /* background-image: url('/DarkMountain.jpg'); */
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;

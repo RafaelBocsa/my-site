@@ -1,17 +1,17 @@
 import React from "react";
+import styles from "./styles.module.css";
 
 const aboutme = () => {
   return (
-    <div
-      className="flex gap-40 grid-cols-2 grid-rows-1 justify-center py-80 text-white h-lvh"
-      id="AboutMe"
-    >
-      <div className="px-20">
-        <img src="/me.png" className=" w-80" />
+    <div className={styles.aboutMe} id="AboutMe">
+      <div className="">
+        <img src="/me.png" className="w-80" />
       </div>
-      <div className="px-20">
+      <div className="">
         <h1 className="text-3xl">Software Engineer</h1>
-        <h3 className="text-xl">Loren wim siwh sith gin se</h3>
+        <h3 className="text-xl">
+          Loren wim siwh sith gin se. Le aois ist thie siwh SKE
+        </h3>
       </div>
     </div>
   );

@@ -17,6 +17,18 @@ export default function Home() {
       <NavBar />
       <Summit />
       <AboutMe />
+      <div className="text-white h-lvh bg-slate-400">
+        <h1>wd</h1>
+        <h1>wd</h1>
+        <h1>wd</h1>
+        <h1>wwd</h1>
+      </div>
+      <div className="text-white h-lvh bg-black">
+        <h1>wd</h1>
+        <h1>wd</h1>
+        <h1>wd</h1>
+        <h1>wwd</h1>
+      </div>
     </main>
   );
 }

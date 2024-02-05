@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const navbar = () => {
   return (
-    <div className="flex justify-between p-8 items-center gap-5 text-white h-1  ">
-      <div className="flex gap-5 fixed ">
+    <div className="flex justify-between p-10 items-center gap-5 text-white h-1 ">
+      <div className="flex gap-5 fixed z-30">
         <Link
           href={"#AboutMe"}
-          className="text-lg font-bold sm:block hover:brightness-50 "
+          className="text-lg font-bold sm:block hover:brightness-100 z-70"
         >
           About
         </Link>
@@ -25,12 +25,12 @@ const navbar = () => {
         </Link>
       </div>
       {/* <h1 className="text-lg font-bold ">Rafael Bocsa</h1> */}
-      <div className=" flex end-5 gap-5 fixed">
+      <div className=" flex end-5 gap-5 fixed z-30">
         <a href="https://github.com/RafaelBocsa" target="_blank">
           <img
             src="/gitwhite.png"
             alt=""
-            className=" h-8 hover:brightness-50 "
+            className=" h-8 hover:brightness-50 z-30"
           />
         </a>
         <a
