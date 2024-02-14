@@ -7,7 +7,7 @@ const navbar = () => {
       <div className="flex gap-5 fixed z-30">
         <Link
           href={"#AboutMe"}
-          className="text-lg font-bold sm:block hover:brightness-100 z-70"
+          className="text-lg font-bold sm:block hover:brightness-50"
         >
           About
         </Link>
@@ -26,6 +26,7 @@ const navbar = () => {
       </div>
       {/* <h1 className="text-lg font-bold ">Rafael Bocsa</h1> */}
       <div className=" flex end-5 gap-5 fixed z-30">
+        <h1 className="text-lg font-bold sm:block hover:brightness-50 ">Experience</h1>
         <a href="https://github.com/RafaelBocsa" target="_blank">
           <img
             src="/gitwhite.png"

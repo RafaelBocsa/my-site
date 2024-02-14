@@ -10,7 +10,7 @@ const summit = () => {
     let ctx = gsap.context(() => {
       const t1 = gsap.timeline();
       t1.from("#darkMontain", {
-        filter: "brightness(1.1)",
+        filter: "brightness(1.2)",
         duration: 7,
         repeat: -1,
         yoyo: true,
@@ -21,12 +21,11 @@ const summit = () => {
   }, []);
   return (
     <div className={styles.summit} ref={comp}>
-      <div>OWINDOWIND</div>
       <div className="grid justify-center items-center py-20 ">
         <h1 className="text-8xl z-20">SUMMIT</h1>
         <h1 className="text-2xl z-20">An interactive web portfolio</h1>
       </div>
-      <img src="FrontMountain.png" className=" -my-96 absolute z-10" />
+      {/* <img src="FrontMountain.png" className=" -my-96 absolute z-10" /> */}
       <img src="DarkMountain.jpg" className=" -my-96" id="darkMontain" />
     </div>
   );

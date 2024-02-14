@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import NavBar from "@/components/nav_bar/navbar";
 import Summit from "@/components/summit/summit";
 import AboutMe from "@/components/about_me/aboutme";
+import Projects from "@/components/projects/projects";
 
 export default function Home() {
   useEffect(() => {
@@ -17,7 +18,8 @@ export default function Home() {
       <NavBar />
       <Summit />
       <AboutMe />
-      <div className="text-white h-lvh bg-slate-400">
+      <Projects />
+      {/* <div className="text-white h-lvh bg-slate-400">
         <h1>wd</h1>
         <h1>wd</h1>
         <h1>wd</h1>
@@ -28,7 +30,7 @@ export default function Home() {
         <h1>wd</h1>
         <h1>wd</h1>
         <h1>wwd</h1>
-      </div>
+      </div> */}
     </main>
   );
 }
