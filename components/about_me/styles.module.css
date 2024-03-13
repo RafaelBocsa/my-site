@@ -7,8 +7,10 @@
   /* justify-content: space-around; */
   /* justify-content: space-between; */
   justify-content: center;
-  /* align-items: center; */
-  padding: 30% 10%;
+  align-items: center;
+  padding-top: 30%;
+  padding-bottom: 15%;
+
   color: white;
-  height: 150rem;
+  /* height: 150rem; */
 }

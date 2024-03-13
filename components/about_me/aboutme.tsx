@@ -30,8 +30,15 @@ const aboutme = () => {
           </h1>
         </div>
       </div>
-      <div className="text-white">
-        <h1>About me end</h1>
+      <div className="text-white  justify-center ite py-20 ">
+        <h1>Career Objective</h1>
+        <h1>
+          Enthusiastic and driven 4th year Computer Science student with a
+          passion for software engineering and cloud development seeking to
+          leverage technical skills into real-world applications. Eager to
+          contribute to innovation while honing professional skills in a dynamic
+          setting.
+        </h1>
       </div>
     </div>
   );

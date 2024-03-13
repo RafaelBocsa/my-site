@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 
 const projects = () => {
   return (
-    <div className="bg-slate-800 h-[70rem] p-10">
+    <div className="bg-slate-800 h-full p-10">
       <div className=" flex text-neutral-400 text-lg w-[100%] py-1">
         <h1 className="block w-[35vw] px-6">PROJECTS</h1>
         <h1 className="block w-[45vw] ">TECHNOLOGIES</h1>
@@ -14,6 +14,15 @@ const projects = () => {
 
       <div className="">
         <ul className="h-full ">
+          <ProjectCards
+            src="/me.png"
+            title="HabitForge"
+            year="2024"
+            tech="FULLSTACK"
+            type="Team project"
+            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
+          amount of generations and population size to achieve 95% decryption accuracy"
+          />
           <ProjectCards
             src="/me.png"
             title="Vignere Cipher Decoder Genetic Algorithm"
@@ -31,6 +40,33 @@ const projects = () => {
             type="University project"
             description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
           amount of generations and population size to achieve 95% decryption accuracy"
+          />
+          <ProjectCards
+            src="/me.png"
+            title="Python Web Scraper"
+            year="2023"
+            tech="SCRIPTING"
+            type="Personal project"
+            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
+          amount of generations and population size to achieve 95% decryption accuracy"
+          />
+          <ProjectCards
+            src="/me.png"
+            title="Aim Trainer Game"
+            year="2022"
+            tech="SWE"
+            type="Personal project"
+            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
+        amount of generations and population size to achieve 95% decryption accuracy"
+          />
+          <ProjectCards
+            src="/me.png"
+            title="Parrot Heads in Niagara"
+            year="2022"
+            tech="BACKEND"
+            type="Client website"
+            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
+      amount of generations and population size to achieve 95% decryption accuracy"
           />
         </ul>
       </div>
