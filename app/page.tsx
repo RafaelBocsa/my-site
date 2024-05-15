@@ -4,6 +4,7 @@ import NavBar from "@/components/nav_bar/navbar";
 import Summit from "@/components/summit/summit";
 import AboutMe from "@/components/about_me/aboutme";
 import Projects from "@/components/projects/projects";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   useEffect(() => {
@@ -14,23 +15,18 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="bg-[#121212] w-full overflow-clip">
       <NavBar />
       <Summit />
       <AboutMe />
       <Projects />
-      {/* <div className="text-white h-lvh bg-slate-400">
-        <h1>wd</h1>
-        <h1>wd</h1>
-        <h1>wd</h1>
-        <h1>wwd</h1>
+      <div className="text-white h-lvh bg-[#121212] ">
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
       </div>
-      <div className="text-white h-lvh bg-black">
-        <h1>wd</h1>
-        <h1>wd</h1>
-        <h1>wd</h1>
-        <h1>wwd</h1>
-      </div> */}
+      <Footer />
     </main>
   );
 }

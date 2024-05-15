@@ -1,13 +1,11 @@
-/* absolute justify-center items-center top-60 right-40 */
-.summit{
-    color: white;
-    height: 100vh;
-}
-.textDiv{
-    /* position: absolute;
-    justify-content: center;
-    align-items: center;
-    place-items: c;
-    top: 60%;
-    right: 50%; */
+.summit {
+  /*    py */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100lvh;
+  opacity: 0;
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  transform: translateY(100px);
 }

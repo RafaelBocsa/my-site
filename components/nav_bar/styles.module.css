@@ -1,0 +1,14 @@
+.navbar {
+  display: block;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  min-height: 10vh;
+  width: 100%;
+  opacity: 0;
+  z-index: 9999;
+  /* border: 1px solid; */
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  transform: translateY(100px);
+}

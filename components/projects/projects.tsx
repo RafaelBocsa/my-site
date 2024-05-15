@@ -4,18 +4,18 @@ import { useState, useRef, useEffect } from "react";
 
 const projects = () => {
   return (
-    <div className="bg-slate-800 h-full p-10">
-      <div className=" flex text-neutral-400 text-lg w-[100%] py-1">
-        <h1 className="block w-[35vw] px-6">PROJECTS</h1>
-        <h1 className="block w-[45vw] ">TECHNOLOGIES</h1>
-        <h1 className="block w-[25vw]">TYPE</h1>
-        <h1 className="block w-[10vw]">Year</h1>
+    <div className="">
+      <div>
+        <h1 className="flex text-4xl justify-center text-white  sm:text-5xl md:text-7xl">
+          SELECTED WORKS
+        </h1>
       </div>
 
       <div className="">
-        <ul className="h-full ">
+        <ul className="h-full p-7">
           <ProjectCards
-            src="/me.png"
+            indx={1}
+            src="/IMG_6685.jpg"
             title="HabitForge"
             year="2024"
             tech="FULLSTACK"
@@ -24,49 +24,24 @@ const projects = () => {
           amount of generations and population size to achieve 95% decryption accuracy"
           />
           <ProjectCards
-            src="/me.png"
-            title="Vignere Cipher Decoder Genetic Algorithm"
-            year="2023"
-            tech="SWE"
-            type="Personal project"
-            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
-          amount of generations and population size to achieve 95% decryption accuracy"
-          />
-          <ProjectCards
-            src="/me.png"
-            title="Discord Bot"
-            year="2023"
+            indx={2}
+            src="/IMG_5472.jpg"
+            title="Island Model GP"
+            year="2024"
             tech="AI"
-            type="University project"
+            type="Team project"
             description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
           amount of generations and population size to achieve 95% decryption accuracy"
           />
           <ProjectCards
-            src="/me.png"
-            title="Python Web Scraper"
-            year="2023"
-            tech="SCRIPTING"
-            type="Personal project"
-            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
-          amount of generations and population size to achieve 95% decryption accuracy"
-          />
-          <ProjectCards
-            src="/me.png"
-            title="Aim Trainer Game"
-            year="2022"
-            tech="SWE"
-            type="Personal project"
-            description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
-        amount of generations and population size to achieve 95% decryption accuracy"
-          />
-          <ProjectCards
-            src="/me.png"
+            indx={3}
+            src="/img3.jpg"
             title="Parrot Heads in Niagara"
             year="2022"
             tech="BACKEND"
             type="Client website"
             description="Used genetic algorithms to build a Vigen`ere cipher decoder that finds the key to encrypted text over a certain
-      amount of generations and population size to achieve 95% decryption accuracy"
+          amount of generations and population size to achieve 95% decryption accuracy"
           />
         </ul>
       </div>
@@ -75,44 +50,3 @@ const projects = () => {
 };
 
 export default projects;
-
-// import React from "react";
-// import ProjectCards from "@/components/projects/projectCards";
-
-// const Projects = [
-//   {
-//     id: 1,
-//     name: "Project 1",
-//     description: "Description for Project 1",
-//     photoUrl: "/me.png",
-//   },
-//   {
-//     id: 2,
-//     name: "Project 2",
-//     description: "Description for Project 2",
-//     photoUrl: "project2.jpg",
-//   },
-//   {
-//     id: 3,
-//     name: "Project 3",
-//     description: "Description for Project 2",
-//     photoUrl: "project2.jpg",
-//   },
-//   {
-//     id: 4,
-//     name: "Project 4",
-//     description: "Description for Project 2",
-//     photoUrl: "project2.jpg",
-//   },
-//   // Add more projects as needed
-// ];
-
-// const projects: React.FC = () => {
-//   return (
-//     <div className="">
-//       <ProjectCards projects={Projects} />
-//     </div>
-//   );
-// };
-
-// export default projects;

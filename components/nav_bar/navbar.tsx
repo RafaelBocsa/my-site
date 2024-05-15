@@ -1,37 +1,103 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./styles.module.css";
+import { useLayoutEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 const navbar = () => {
+  const NavBar = useRef(null);
+
+  useLayoutEffect(() => {
+    const nav1 = gsap.timeline({
+      // defaults: {
+      //   ease: "power4.inOut",
+      //   duration: 2,
+      // },
+    });
+    nav1.to(NavBar.current, {
+      "clip-path": "polygon(0% 100%,100% 100%,100% 0%, 0% 0%)",
+      opacity: 1,
+      duration: 1.5,
+      y: 0,
+    });
+  }, []);
+
+  useLayoutEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    const nav2 = gsap.timeline({
+      defaults: {
+        ease: "power4.inOut",
+        duration: 2,
+      },
+      scrollTrigger: {
+        trigger: document.documentElement,
+        start: "top",
+        end: "+=500px",
+        scrub: true,
+        // markers: true,
+      },
+    });
+    nav2.to(NavBar.current, {
+      opacity: 0,
+    });
+  }, []);
+
+  function hoverOn() {
+    const nav1 = gsap.timeline({});
+    nav1.to(NavBar.current, {
+      opacity: 1,
+    });
+  }
+  function hoverOff() {
+    const nav1 = gsap.timeline({});
+    nav1.to(NavBar.current, {
+      opacity: 0,
+      delay: 2,
+    });
+  }
+
   return (
-    <div className="flex justify-between p-10 items-center gap-5 text-white h-1 ">
-      <div className="flex gap-5 fixed z-30">
+    <div
+      className={styles.navbar}
+      ref={NavBar}
+      onMouseOver={() => {
+        hoverOn();
+      }}
+      onMouseLeave={() => {
+        hoverOff();
+      }}
+    >
+      <div className="flex gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg">
         <Link
           href={"#AboutMe"}
-          className="text-lg font-bold sm:block hover:brightness-50"
+          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out"
         >
-          About
+          ABOUT
         </Link>
         <Link
           href={"/"}
-          className="text-lg font-bold sm:block hover:brightness-50 "
+          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out"
         >
-          Projects
+          PROJECTS
         </Link>
         <Link
           href={"/"}
-          className="text-lg font-bold sm:block hover:brightness-50 "
+          className=" hover:brightness-50 hover:translate-y-1 transition ease-in-out"
         >
-          Contact
+          CONTACT
         </Link>
       </div>
-      {/* <h1 className="text-lg font-bold ">Rafael Bocsa</h1> */}
-      <div className=" flex end-5 gap-5 fixed z-30">
-        <h1 className="text-lg font-bold sm:block hover:brightness-50 ">Experience</h1>
+      <div className=" flex end-5 gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg ">
+        <h1 className="   hover:brightness-50 hover:translate-y-1 transition ease-in-out">
+          EXPERIENCE
+        </h1>
         <a href="https://github.com/RafaelBocsa" target="_blank">
           <img
             src="/gitwhite.png"
             alt=""
-            className=" h-8 hover:brightness-50 z-30"
+            className=" h-4 hover:brightness-50 z-30 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out"
           />
         </a>
         <a
@@ -41,7 +107,7 @@ const navbar = () => {
           <img
             src="/In-White-128.png"
             alt=""
-            className="h-8 hover:brightness-50 "
+            className="h-4 hover:brightness-50 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out"
           />
         </a>
       </div>
