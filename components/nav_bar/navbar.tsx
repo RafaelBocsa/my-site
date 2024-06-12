@@ -69,7 +69,7 @@ const navbar = () => {
         hoverOff();
       }}
     >
-      <div className="flex gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg">
+      <div className=" gap-5 grid p-7  text-sm font-bold sm:text-md md:text-lg sm:fixed sm:flex">
         <Link
           href={"#AboutMe"}
           className="hover:brightness-50 hover:translate-y-1 transition ease-in-out"
@@ -88,8 +88,14 @@ const navbar = () => {
         >
           CONTACT
         </Link>
+        <Link
+          href={"#AboutMe"}
+          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out visible sm:invisible"
+        >
+          EXPERIENCE
+        </Link>
       </div>
-      <div className=" flex end-5 gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg ">
+      <div className=" flex end-5 gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg invisible sm:visible">
         <h1 className="   hover:brightness-50 hover:translate-y-1 transition ease-in-out">
           EXPERIENCE
         </h1>
@@ -97,7 +103,7 @@ const navbar = () => {
           <img
             src="/gitwhite.png"
             alt=""
-            className=" h-4 hover:brightness-50 z-30 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out"
+            className=" h-4 hover:brightness-50 z-30 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out invisible sm:visible"
           />
         </a>
         <a
@@ -107,7 +113,7 @@ const navbar = () => {
           <img
             src="/In-White-128.png"
             alt=""
-            className="h-4 hover:brightness-50 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out"
+            className="h-4 hover:brightness-50 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out invisible sm:visible"
           />
         </a>
       </div>
