@@ -70,7 +70,6 @@ const projects = () => {
               </div>
             </div>
           </ul> */}
-
           <div className="grid h-full grid-cols-12 md:py-20 ">
             <div className="sticky top-0 col-span-3 h-fit w-full text-9xl text-white overflow-hidden invisible md:visible p-5 ">
               <ul className="items-center flex-col">
