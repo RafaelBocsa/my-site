@@ -45,8 +45,12 @@ const projectContainer = ({
         </div>
         <div className=" flex items-end text-xs font-medium uppercase md:text-md 2xl:text-base flex-row">
           <span className="flex h-fit items-center justify-center gap-x-2">
-            <a href={link} className="rounded-full border px-3" target="_blank">
-              View
+            <a
+              href={link}
+              className="rounded-full px-3 text-white hover:before: relative overflow-hidden border shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:font-semibold hover:shadow-slate-100 hover:before:left-0 hover:before:w-full	"
+              target="_blank"
+            >
+              <span className="relative z-10">View</span>
             </a>
             <span className="rounded-full border px-3">{tech}</span>
           </span>
