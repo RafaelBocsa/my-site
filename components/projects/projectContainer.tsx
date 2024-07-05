@@ -24,11 +24,11 @@ const projectContainer = ({
 }: Details) => {
   return (
     <div className="">
-      <div className=" flex items-center justify-center p-4 ">
+      <div className=" flex items-center justify-center p-4  ">
         <img
           src={src}
           alt=""
-          className=" opacity-40 rounded-md w-full aspect-square relative object-cover "
+          className=" opacity-40 rounded-md w-full aspect-square relative object-cover grayscale"
         />
         <video
           src={vid}

@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import ProjectCards from "@/components/projects/projectCards";
 import Proj from "@/components/projects/projectContainer";
 import { useState, useRef, useEffect } from "react";
 import gsap from "gsap";
@@ -73,9 +72,9 @@ const projects = () => {
           <div className="grid h-full grid-cols-12 md:py-20 ">
             <div className="sticky top-0 col-span-3 h-fit w-full text-9xl text-white overflow-hidden invisible md:visible p-5 ">
               <ul className="items-center flex-col">
-                <li className="numbers inline-block bg-red-500 rounded-full aspect-square w-24 opacity-20"></li>
-                <li className="numbers  w-0 h-0 border-solid border-t-0 border-r-[50px] border-l-[50px] border-b-[86.6px] border-l-transparent border-r-transparent border-t-transparent border-b-blue-500 opacity-20 "></li>
-                <li className="numbers inline-block bg-green-500  aspect-square w-24 opacity-20"></li>
+                <li className="inline-block bg-red-500 rounded-full aspect-square w-24 opacity-20"></li>
+                <li className=" w-0 h-0 border-solid border-t-0 border-r-[50px] border-l-[50px] border-b-[86.6px] border-l-transparent border-r-transparent border-t-transparent border-b-blue-500 opacity-20 "></li>
+                <li className="inline-block bg-green-500  aspect-square w-24 opacity-20"></li>
               </ul>
             </div>
 

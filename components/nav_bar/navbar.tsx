@@ -36,7 +36,7 @@ const navbar = () => {
         start: "top",
         end: "+=500px",
         scrub: true,
-        // markers: true,
+        markers: true,
       },
     });
     nav2.to(NavBar.current, {
@@ -72,38 +72,40 @@ const navbar = () => {
       <div className=" gap-5 grid p-7  text-sm font-bold sm:text-md md:text-lg sm:fixed sm:flex">
         <Link
           href={"#AboutMe"}
-          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out"
+          className=" hover:translate-y-1  ease-in-out group transition-all duration-300 "
         >
-          ABOUT
+          <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            ABOUT
+          </span>
         </Link>
         <Link
           href={"/"}
-          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out"
+          className=" hover:translate-y-1  ease-in-out group transition-all duration-300"
         >
-          PROJECTS
+          <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            PROJECTS
+          </span>
         </Link>
         <Link
           href={"/"}
-          className=" hover:brightness-50 hover:translate-y-1 transition ease-in-out"
+          className="  hover:translate-y-1  ease-in-out group transition-all duration-300"
         >
-          CONTACT
-        </Link>
-        <Link
-          href={"#AboutMe"}
-          className="hover:brightness-50 hover:translate-y-1 transition ease-in-out visible sm:invisible"
-        >
-          EXPERIENCE
+          <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            CONTACT
+          </span>
         </Link>
       </div>
       <div className=" flex end-5 gap-5 fixed p-7 text-sm font-bold sm:text-md md:text-lg invisible sm:visible">
-        <h1 className="   hover:brightness-50 hover:translate-y-1 transition ease-in-out">
-          EXPERIENCE
+        <h1 className="   hover:translate-y-1  ease-in-out group transition-all duration-300">
+          <span className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            EXPERIENCE
+          </span>
         </h1>
         <a href="https://github.com/RafaelBocsa" target="_blank">
           <img
             src="/gitwhite.png"
             alt=""
-            className=" h-4 hover:brightness-50 z-30 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out invisible sm:visible"
+            className=" h-4 hover:brightness-50 z-30 sm:h-5 md:h-7 hover:translate-y-1 transition ease-in-out invisible sm:visible "
           />
         </a>
         <a
