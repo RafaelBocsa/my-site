@@ -23,7 +23,7 @@ const projects = () => {
             vid="/Parrots.mp4"
             title="Parrot Heads in Niagara"
             link="https://www.parrotheads.ca/"
-            year="2024"
+            year="2022"
             tech="FULLSTACK"
             type="Team project"
           ></Proj>

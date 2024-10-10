@@ -1,10 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import NavBar from "@/components/nav_bar/navbar";
-import Summit from "@/components/summit/summit";
 import SideCard from "@/components/side_card/sidecard";
 import Projects from "@/components/projects/projects";
-import Footer from "@/components/footer/footer";
 import AboutMe from "@/components/about_me/about_me";
 import Experience from "@/components/experience/experience";
 
