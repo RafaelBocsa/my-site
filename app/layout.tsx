@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Tenor_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const tenor = Tenor_Sans({ subsets: ["latin"], weight: ["400"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Rafael Bocsa",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={tenor.className}>
+      <body className={inter.className}>
         {/* More components under here */}
         {children}
       </body>
