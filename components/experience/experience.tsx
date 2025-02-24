@@ -9,7 +9,7 @@ const experience = () => {
           <h2 className="font-bold text-white pb-4">Experience</h2>
         </div>
         <Exp_card
-          year="JUNE 2024 — Present"
+          year="JUNE — AUG 2024"
           company="HIEC"
           position="Web Developer"
           location="Burlington, ON"

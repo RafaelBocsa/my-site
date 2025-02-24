@@ -6,7 +6,7 @@ const footer = () => {
       <div className=" flex gap-5  items-center">
         <div className="flex gap-5 border-r-4 pr-4 ">
           <img src="/favicon.ico" alt="" className="h-7 hover:brightness-50 " />
-          <h1 className="text-white text-xl  h-7 hover:brightness-50">2024</h1>
+          <h1 className="text-white text-xl  h-7 hover:brightness-50">2025</h1>
         </div>
 
         <div className="flex gap-5  items-center">
