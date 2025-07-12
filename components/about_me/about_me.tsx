@@ -9,11 +9,11 @@ const about_me = () => {
         </div>
 
         <div className="text-sm sm:text-md md:text-lg lg:text-xl tracking-wide ">
-          22 year old computer science new grad from Brock University with a
-          passion for{" "}
-          <div className="inline text-white">Software Engineering</div> and{" "}
-          <div className="inline text-white">Cloud Development.</div> My goal is
-          to improve peoples lives through impactful digital solutions that
+          I'm a 23 year old computer science new grad from Brock University with
+          a passion for{" "}
+          <div className="inline text-white">Software Engineering, Cloud</div>{" "}
+          and <div className="inline text-white">Game Development.</div> My goal
+          is to improve peoples lives through impactful digital solutions that
           solve real world problems.
         </div>
         <div className="text-sm sm:text-md md:text-lg lg:text-xl tracking-wide py-5">
