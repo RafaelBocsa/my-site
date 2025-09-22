@@ -43,14 +43,14 @@ const projects = () => {
               View My Other Projects →
             </a>
           </div>
-          <div className="text-neutral-400 pt-36 text-sm tracking-wide leading-snug max-w-md">
+          {/* <div className="text-neutral-400 pt-36 text-sm tracking-wide leading-snug max-w-md">
             Designed and coded in{" "}
             <div className="inline text-white">VS Code</div>. Built with{" "}
             <div className="inline text-white">React.JS,</div>{" "}
             <div className="inline text-white">Next.JS,</div>{" "}
             <div className="inline text-white">Tailwind CSS</div> and deployed
             with <div className="inline text-white">Vercel.</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
