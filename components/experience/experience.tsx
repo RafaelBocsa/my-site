@@ -9,34 +9,34 @@ const experience = () => {
           <h2 className="font-bold text-white pb-4">Experience</h2>
         </div>
         <Exp_card
-          year="JUNE — AUG 2024"
+          year="JUN. — AUG. 2024"
           company="HIEC"
           position="Web Developer"
           location="Burlington, ON"
-          description="Created custom JS and JQUERY code for specific web elements, enhancing visual design and backend
-          functionalities. Spearheaded the redesign of a new policy page and user feedback function, prioritizing safety and security.
-          Initiated major front and backend changes to site components, optimizing space usage and page redirects. Collaborated in pair programming to debug code, optimize routes and troubleshoot api calls in a RubyOnRails
-          environment for better user flows."
+          description="Designed and launched an archive system used by admins to manage 20+ programs and events, improving content organization and reducing page 
+          retrieval time through optimized WordPress archive blocks. Migrated a legacy Ruby on Rails codebase to Tailwind CSS (60% completion) through pair programming 
+          with senior developers, enhancing UI consistency and maintainability. Redeveloped the policy page and user feedback workflow to meet AODA accessibility standards 
+          by writing custom JavaScript/JQUERY components in Elementor, increasing accessibility compliance and user engagement."
         ></Exp_card>
         <Exp_card
-          year="SEPT — DEC 2022"
+          year="SEPT. — DEC. 2022"
           company="Government of Ontario"
           position="Software Developer Intern"
           location="St. Catharines, ON"
-          description="Accomplished a proof of concept lab report on web development best practices to over 30 public servants by
-          utilizing emerging technologies such as OutSystems, Flutter/Dart, Firebase, and PWA. Developed an automated attendance checker, reducing manual attendance monitoring efforts by 60% and providing
-          real-time updates via PowerApps. Explored new software and technologies to drive digital service transformation for clients by investigation creative
-          digital solutions, delving into complex problems to derive insights, prototype, and validate with end users.
+          description="Built an automated attendance tracking system that emailed Excel reports to 300+ employees, reducing manual monitoring workload 
+          by 60% using PowerApps and automated validation logic. Produced a proof-of-concept report on modern web architecture (Flutter, Firebase, OutSystems, PWAs) 
+          and delivered a technical seminar to 30+ public servants, guiding future modernization initiatives. Documented workflows, architecture diagrams, 
+          and testing steps in internal runbooks to standardize adoption of emerging technologies across the division.
         "
         ></Exp_card>
         <Exp_card
-          year="JAN — APR 2022"
+          year="JAN. — APR. 2022"
           company="Civiconnect"
           position="Software Developer Intern"
-          location="Beamsvile, ON"
-          description="Developed and deployed end-to-end websites for local businesses utilizing Django, PostgreSQL, and AWS.
-           Engineered backend services with Django to facilitate 50% faster content updates through the admin dashboard.
-           Demonstrated functional backend features punctually, ensuring 100% client satisfaction and addressing needs within tight deadlines.
+          location="Beamsville, ON"
+          description="Engineered backend services with Django to facilitate 50% faster content updates through the admin dashboard. Developed and deployed 
+          end-to-end websites aiding 20+ local businesses in the Lincoln region utilizing Django, PostgreSQL, and AWS, translating business requirements into custom 
+          technical solutions. Created documentation and repeatable deployment steps to streamline the agency’s future client project onboarding.
         "
         ></Exp_card>
         {/* <div className="py-10">
