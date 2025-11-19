@@ -39,11 +39,16 @@ const experience = () => {
           technical solutions. Created documentation and repeatable deployment steps to streamline the agency’s future client project onboarding.
         "
         ></Exp_card>
-        {/* <div className="py-10">
-          <a href="public\RafaelBocsa_Resume.pdf" download target="_blank">
-            View Full Résumé →
+        <div className="py-10">
+          <a
+            href="/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-xl"
+          >
+            → View Full Resume
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
