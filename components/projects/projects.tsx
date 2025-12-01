@@ -9,8 +9,17 @@ const projects = () => {
       <div className="grid h-full grid-cols-10 md:py-20 ">
         <div className=" relative col-span-12 flex flex-col gap-y-12 text-xl   sm:gap-y-16 md:col-span-10 2xl:gap-y-32 ">
           <Proj
-            src="/IMG_6685.jpg"
-            vid="/HabitForge.mp4"
+            src="/photos/IMG_6685.jpg"
+            vid="/vids/FN_vid_2.mp4"
+            title="FNCS Trio Builder"
+            link="https://www.fntriobuilder.xyz/"
+            year="2025"
+            tech="FULLSTACK"
+            type="Personal project"
+          ></Proj>
+          <Proj
+            src="/photos/IMG_6685.jpg"
+            vid="/vids/HabitForge.mp4"
             title="HabitForge"
             link="https://www.habitforge.ca/"
             year="2024"
@@ -19,8 +28,8 @@ const projects = () => {
           ></Proj>
 
           <Proj
-            src="/IMG_5472.jpg"
-            vid="/Parrots.mp4"
+            src="/photos/IMG_5472.jpg"
+            vid="/vids/Parrots.mp4"
             title="Parrot Heads in Niagara"
             link="https://www.parrotheads.ca/"
             year="2022"
@@ -29,8 +38,8 @@ const projects = () => {
           ></Proj>
 
           <Proj
-            src={"/piano.jpg"}
-            vid={"/aimgame.mp4"}
+            src={"/photos/piano.jpg"}
+            vid={"/vids/aimgame.mp4"}
             title="Aim Trainer Game"
             link={"https://rafaelbocsa.github.io/Aim_Trainer/"}
             tech={"Game Dev"}

@@ -11,12 +11,11 @@ const experience = () => {
         <Exp_card
           year="JUN. — AUG. 2024"
           company="HIEC"
-          position="Web Developer"
+          position="Web Developer Intern"
           location="Burlington, ON"
-          description="Designed and launched an archive system used by admins to manage 20+ programs and events, improving content organization and reducing page 
-          retrieval time through optimized WordPress archive blocks. Migrated a legacy Ruby on Rails codebase to Tailwind CSS (60% completion) through pair programming 
-          with senior developers, enhancing UI consistency and maintainability. Redeveloped the policy page and user feedback workflow to meet AODA accessibility standards 
-          by writing custom JavaScript/JQUERY components in Elementor, increasing accessibility compliance and user engagement."
+          description="Designed and launched an archive system used by admins to manage 20+ programs and events for workforce development, improving content organization and reducing page retrieval time through WordPress archive blocks. 
+          Migrated a legacy Ruby on Rails codebase to Tailwind CSS (60% completion) through pair programming with senior developers, enhancing UI consistency empowering Ontario’s future skilled trades.
+          Redeveloped the policy page and user feedback workflow to meet AODA accessibility standards by writing custom JavaScript/JQUERY components in Elementor, increasing accessibility compliance and user engagement."
         ></Exp_card>
         <Exp_card
           year="SEPT. — DEC. 2022"

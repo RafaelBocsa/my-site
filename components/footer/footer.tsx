@@ -12,14 +12,14 @@ const footer = () => {
         <div className="flex gap-5  items-center">
           <a href="mailto:bocsarafael@gmail.com" target="_blank">
             <img
-              src="/icons8-email-96.png"
+              src="/icons/icons8-email-96.png"
               alt=""
               className="h-7 hover:brightness-50 "
             />
           </a>
           <a href="https://github.com/RafaelBocsa" target="_blank">
             <img
-              src="/gitwhite.png"
+              src="/icons/gitwhite.png"
               alt=""
               className=" h-7 hover:brightness-50 z-30"
             />
@@ -29,7 +29,7 @@ const footer = () => {
             target="_blank"
           >
             <img
-              src="/In-White-128.png"
+              src="/icons/In-White-128.png"
               alt=""
               className="h-7 hover:brightness-50 "
             />
