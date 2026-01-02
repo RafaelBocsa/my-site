@@ -1,7 +1,7 @@
 import React from "react";
 
 const ResumeView = () => {
-  const pdfURL = "/docs/RafaelBocsa_2025.pdf";
+  const pdfURL = "/docs/RafaelBocsa_2026.pdf";
 
   return (
     <div style={{ height: "100vh", overflow: "hidden" }}>
