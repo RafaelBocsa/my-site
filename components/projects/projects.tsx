@@ -9,7 +9,7 @@ const projects = () => {
       <div className="grid h-full grid-cols-10 md:py-20 ">
         <div className=" relative col-span-12 flex flex-col gap-y-12 text-xl   sm:gap-y-16 md:col-span-10 2xl:gap-y-32 ">
           <Proj
-            src="/photos/IMG_6685.jpg"
+            src="/photos/IMG_4.jpg"
             vid="/vids/FN_vid_2.mp4"
             title="FNCS Trio Builder"
             link="https://www.fntriobuilder.xyz/"
@@ -21,7 +21,7 @@ const projects = () => {
             src="/photos/IMG_6685.jpg"
             vid="/vids/HabitForge.mp4"
             title="HabitForge"
-            link="https://www.habitforge.ca/"
+            link="https://github.com/a-patel02/4P02_Winter_2024"
             year="2024"
             tech="FULLSTACK"
             type="Team project"
