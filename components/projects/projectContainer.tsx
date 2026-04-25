@@ -21,7 +21,7 @@ const projectContainer = ({
   type,
 }: Details) => {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <div className=" flex items-center justify-center p-4  ">
         <img
           src={src}
