@@ -16,7 +16,7 @@ export default function resumeViewer({ file }: { file: string }) {
       const width = window.innerWidth;
 
       if (width < 640) {
-        setContainerWidth(width - 32);
+        setContainerWidth(width);
       } else if (width < 1024) {
         setContainerWidth(Math.min(width - 64, 700));
       } else {
@@ -25,9 +25,6 @@ export default function resumeViewer({ file }: { file: string }) {
     };
 
     updateWidth();
-    window.addEventListener("resize", updateWidth);
-
-    return () => window.removeEventListener("resize", updateWidth);
   }, []);
 
   return (

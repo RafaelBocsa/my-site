@@ -33,6 +33,8 @@ const projectContainer = ({
           autoPlay
           loop
           muted
+          playsInline
+          preload="metadata"
           className="absolute items-center justify-center rounded-md w-4/5 aspect-video object-cover object-bottom"
         ></video>
       </div>
