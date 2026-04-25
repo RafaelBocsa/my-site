@@ -35,6 +35,7 @@ export default function resumeViewer({ file }: { file: string }) {
       <div className="w-full bg-none overflow-hidden">
         <Document
           file={file}
+          loading={<></>}
           error={
             <div className="p-8 text-center text-red-500">
               Failed to load PDF.
